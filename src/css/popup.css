@@ -1,0 +1,108 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	line-height: 1;
+	height: 177px;
+	width: 160px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	background: white;
+	width: inherit;
+	height: inherit;
+	position: relative;
+}
+
+/* Archive & statistics Divs */
+#archive {
+	margin: 4px;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+	height: 150px;
+}
+
+.details {
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	height: 65px;
+}
+
+.title {
+	padding-top: 2px;
+}
+
+#time-date,
+#message {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#time-since {
+	padding-top: 18px;
+}
+
+#date {
+	padding-bottom: 4px;
+}
+
+#statistics {
+	background-color: #FFF;
+	position: absolute;
+	top: -4px;
+	padding: 10px;
+	width: 100%;
+	margin: 0;
+	height: 154px;
+}
+
+.number {
+	padding: 5px;
+	font-weight: bold;
+}
+
+#options-box {
+	padding: 4px;
+	padding-top: 0px;
+}
+
+#options-box.overlay {
+	background-color: #50453D;
+	opacity: 0.9;
+}
+
+/* Overlay */
+#overlay {
+	position: absolute;
+	width: 100%;
+	background-color: #50453D;
+	opacity: 0.9;
+	text-align: center;
+	color: white;
+	height: 154px;
+	font-weight: 700;
+	padding: 12px;
+	top: -4px;
+}
+
+#overlay > .title {
+	height: 14px;
+}
+
+#overlay > .reason {
+	padding-top: 25px;
+}
+
+#overlay > .reason,
+#overlay > .title {
+	text-shadow: 1px 1px 1px #212121;
+}
